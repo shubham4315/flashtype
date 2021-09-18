@@ -1,0 +1,61 @@
+.nav-container{
+    display: flex;
+    height: 72px;
+    align-items: center;
+    background: #1d2020;
+    margin: 0;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.26);
+    justify-content: space-between;
+    z-index: 99;
+}
+
+@media (max-width: 600px){
+    .nav-container{
+        height : 120px;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.nav-left{
+    display: flex;
+    align-items: center;
+}
+
+.flash-logo{
+    margin-left: 20px;
+    height: 40px;
+}
+
+.flash-logo-text{
+    font-family: 'bangers',cursive;
+    font-size: 60px;
+    letter-spacing: 1px;
+    margin: 0 10px;
+    color: #e7e6e7;
+}
+
+.fa_custom{
+    color:beige;
+}
+
+.nav-right{
+    margin-right: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-linkedin-link,.nav-github-link{
+    margin: 0 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-decoration: none;
+}
+
+
+
+.nav-span{
+    margin-left: 15px;
+    color:#e7e6e7;
+}
